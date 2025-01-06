@@ -14,7 +14,7 @@ This script monitors the CPU usage on a server and restarts the Laravel backend 
 
    Ensure that the `sysstat` package is installed on your system to use the `mpstat` command:
 
-   ```bash
+   ```
    sudo apt-get update
    sudo apt-get install sysstat
     ```
