@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lemonade-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: lemonade-app
+  template:
+    metadata:
+      labels:
+        app: lemonade-app
+    spec:
+      containers:
+      - name: lemonade-app
+        image: myrepo/lemonade-app:latest
+        ports:
+        - containerPort: 8080

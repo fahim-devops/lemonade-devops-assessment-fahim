@@ -1,0 +1,3 @@
+export RABBITMQ_HOST=localhost
+export RABBITMQ_USER=rabbitmq
+export RABBITMQ_PASSWORD=rabbitmq123
