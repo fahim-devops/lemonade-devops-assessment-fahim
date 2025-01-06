@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/myuser/lemonade-app-deployments'
+    repoURL: 'https://github.com/fahim-devops/lemonade-devops-assessment-fahim'
     targetRevision: HEAD
     path: 'k8s'
   destination:
