@@ -24,7 +24,7 @@ jobs:
 
     - name: Build and Push Docker Image
       run: |
-        docker buildx build --platform linux/amd64 --push -t myrepo/lemonade-app:${{ github.sha }} .
+        docker buildx build --platform linux/amd64 --push -t fahim-devops/lemonade-app:${{ github.sha }} .
 
     - name: Scan Docker Image for Vulnerabilities
       uses: aquasecurity/trivy-action@master
