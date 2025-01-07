@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: lemonade-app
-        image: myrepo/lemonade-app:latest
+        image: fahim-devops/lemonade-app:latest
         ports:
         - containerPort: 8080
